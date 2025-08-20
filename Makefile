@@ -21,4 +21,4 @@ endif
 	$(CXX) $(CXXFLAGS) $< -o $@ $(LDFLAGS)
 
 clean:
-	rm -f *.o *.out A B C D E
+	rm -f *.o *.out A B C D E F G H I J K L

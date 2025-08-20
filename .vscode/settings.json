@@ -34,6 +34,10 @@
     "tuple": "cpp",
     "typeinfo": "cpp",
     "vector": "cpp",
-    "algorithm": "cpp"
+    "algorithm": "cpp",
+    "__hash_table": "cpp",
+    "__tree": "cpp",
+    "forward_list": "cpp",
+    "queue": "cpp"
   }
 }
