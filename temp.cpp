@@ -2,18 +2,7 @@
 // Competitive Programming: I/O + DEBUG Utilities (C++17)
 // Toggle debug with:  -DLOCAL   (e.g., g++ -O2 -std=gnu++17 -DLOCAL)
 // -------------------------------------------------------------
-#include <iostream>
-#include <vector>
-#include <string>
-#include <utility>
-#include <algorithm>
-#include <unordered_map>
-#include <set>
-#include <list>
-#include <deque>
-#include <map>
-#include <iterator>
-#include <queue>
+#include <bits/stdc++.h>
 
 using namespace std;
 
