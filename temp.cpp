@@ -217,6 +217,16 @@ struct MyCustomComparator {
 
 // priority_queue<vector<int>, vector<vector<int>>, MyCustomComparator> pq;
 
+template <typename T>
+void print_mat(const vector<vector<T>>& matrix) {
+  for (const auto& row : matrix) {
+    for (const auto& elem : row) {
+      cout << elem << " ";
+    }
+    cout << "\n";
+  }
+}
+
 
 // ========== MAIN SKELETON ==========
 void solve() {
