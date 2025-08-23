@@ -16,6 +16,7 @@ struct FastIO {
 
 // ========== TYPE ALIASES & MACROS ==========
 using ll = long long;
+using ull = unsigned long long;
 using pii = pair<int,int>;
 using pll = pair<long long,long long>;
 #define rep(i,a,b) for (int i=(a); i<(b); ++i)
@@ -209,8 +210,10 @@ struct MyCustomComparator {
 
 // ========== MAIN SKELETON ==========
 void solve() {
-  int n, k;
-  cin >> n >> k;
+  int n; find(n);
+  auto v = In.read_vec<int>(n);
+  DBG(n, v);
+  print_vec(v);
 }
 
 int main() {

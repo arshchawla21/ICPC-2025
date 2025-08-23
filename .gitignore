@@ -11,3 +11,6 @@ I.cpp
 J.cpp
 K.cpp
 L.cpp
+
+compile_commands.json*
+.vscode

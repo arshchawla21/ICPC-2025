@@ -27,5 +27,8 @@ endif
 %: %.cpp
 	$(CXX) $(CXXFLAGS) $< -o $@ $(LDFLAGS)
 
+# all binaries with capital alpha names or A_somelabel ie E_1 E_2
+BINS := $(shell ls | grep -E '^[A-Z]$$|^[A-Z]_\w+$$')
+
 clean:
-	rm -f *.o *.out A B C D E F G H I J K L
+	rm -f *.o *.out $(BINS)
