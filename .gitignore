@@ -11,5 +11,6 @@ I.cpp
 J.cpp
 K.cpp
 L.cpp
-contests/*
-contests
+
+compile_commands.json*
+.vscode
