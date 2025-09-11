@@ -11,7 +11,7 @@ LDFLAGS :=
 
 # Debug flag toggle
 ifeq ($(DB),1)
-	CXXFLAGS += -g -DLOCAL
+	CXXFLAGS += -g -O0 -DLOCAL
 else
 	CXXFLAGS += -DNDEBUG
 endif
@@ -32,3 +32,4 @@ BINS := $(shell ls | grep -E '^[A-Z]$$|^[A-Z]_\w+$$')
 
 clean:
 	rm -f *.o *.out $(BINS)
+	rm -rf $(BINS).dSYM
